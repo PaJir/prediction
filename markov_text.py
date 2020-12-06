@@ -64,7 +64,8 @@ def generate(num_sentences=1, word_limit=20):
 def markov_main():
     # input_file = './beatles.txt'
     # input_file = './hamlet.txt'
-    input_file = './bbcnews.txt'
+    # input_file = './bbcnews.txt'
+    input_file = './greece.txt'
     with open(input_file, 'r') as f:
         line = f.readline()
         while line:
